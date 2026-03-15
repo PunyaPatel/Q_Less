@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">ક્યૂ-લેસ</string>
+    <string name="university_name">ઇન્ડસ યુનિવર્સિટી</string>
+    <string name="smart_canteen">સ્માર્ટ કેન્ટીન ઓર્ડરિંગ</string>
+    <string name="login">લોગિન</string>
+    <string name="sign_up">સાઇન અપ</string>
+    <string name="email_address">ઈમેઈલ સરનામું</string>
+    <string name="password">પાસવર્ડ</string>
+    <string name="new_here">અહીં નવા છો? ખાતું બનાવો</string>
+    <string name="already_account">પહેલેથી ખાતું છે? લોગિન કરો</string>
+    <string name="create_account">ખાતું બનાવો</string>
+    <string name="full_name">પૂરું નામ</string>
+    <string name="join_community">ઇન્ડસ ક્યૂ-લેસ સમુદાયમાં જોડાઓ</string>
+    
+    <string name="explore_stalls">સ્ટોલ શોધો</string>
+    <string name="order_favorite">તમારી મનપસંદ કેન્ટીનમાંથી ઓર્ડર કરો</string>
+    <string name="available_stalls">ઉપલબ્ધ સ્ટોલ</string>
+    
+    <string name="nav_home">સ્ટોલ્સ</string>
+    <string name="nav_cart">કાર્ટ</string>
+    <string name="nav_profile">પ્રોફાઇલ</string>
+    
+    <string name="add">ઉમેરો</string>
+    <string name="added_to_cart">%s કાર્ટમાં ઉમેરવામાં આવ્યું</string>
+    <string name="your_cart">તમારું કાર્ટ</string>
+    <string name="total_amount">કુલ રકમ:</string>
+    <string name="place_order">ઓર્ડર આપો</string>
+    
+    <string name="profile">પ્રોફાઇલ</string>
+    <string name="apply_changes">ફેરફારો લાગુ કરો</string>
+    
+    <string name="order_success">ઓર્ડર સફળતાપૂર્વક અપાયો!</string>
+    <string name="token_label">તમારો ટોકન નંબર</string>
+    <string name="token_instruction">તમારો ઓર્ડર લેવા માટે કૃપા કરીને કાઉન્ટર પર આ ટોકન બતાવો.</string>
+    <string name="back_home">હોમ પર પાછા જાઓ</string>
+    
+    <!-- Drawer Items -->
+    <string name="menu_about">અમારા વિશે</string>
+    <string name="menu_logout">લોગઆઉટ</string>
+    <string name="select_language">ભાષા પસંદ કરો</string>
+    
+    <!-- About Intent -->
+    <string name="about_title">ક્યૂ-લેસ વિશે</string>
+    <string name="about_intent">ક્યૂ-લેસ યુનિવર્સિટીના ફૂડ સ્ટોલ પર લાંબી રાહ જોવાની લાઈનોને દૂર કરવા માટે બનાવવામાં આવ્યું છે. અમારી સ્માર્ટ કેન્ટીન ઓર્ડરિંગ સિસ્ટમ વિદ્યાર્થીઓને મેનૂ બ્રાઉઝ કરવા, ડિજિટલ રીતે ઓર્ડર આપવા અને ખોરાક તૈયાર હોય ત્યારે જ તેને લેવાની મંજૂરી આપે છે. અમારો ઉદ્દેશ્ય જમવાના અનુભવને ઝડપી, સ્માર્ટ અને મુશ્કેલીમુક્ત બનાવવાનો છે.</string>
+
+    <!-- Stall Names -->
+    <string name="stall_jaiswal">જયસ્વાલ કેન્ટીન</string>
+    <string name="stall_nestle">નેસ્લે</string>
+    <string name="stall_tea_post">ટી પોસ્ટ</string>
+    <string name="stall_indu_cafe">ઇન્ડુ કેફે</string>
+    <string name="stall_shiv_snacks">શિવ સ્નેક્સ</string>
+
+    <!-- Food Items -->
+    <string name="food_samosa">સમોસા</string>
+    <string name="food_samosa_chat">સમોસા ચાટ</string>
+    <string name="food_dosa">ઢોસા</string>
+    <string name="food_masala_dosa">મસાલા ઢોસા</string>
+    <string name="food_sandwich">સેન્ડવીચ</string>
+    <string name="food_grilled_sandwich">ગ્રીલ્ડ ચીઝ સેન્ડવીચ</string>
+    <string name="food_packets">પેકેટ્સ</string>
+    <string name="food_thali">ફિક્સ થાળી</string>
+    <string name="food_maggie">મેગી</string>
+    <string name="food_masala_maggie">મસાલા મેગી</string>
+    <string name="food_kitkat">કિટ-કેટ</string>
+    <string name="food_cheese_maggie">ચીઝ મેગી</string>
+    <string name="food_coffee">કોફી</string>
+    <string name="food_tea">ચા</string>
+    <string name="food_cold_coffee">કોલ્ડ કોફી</string>
+    <string name="food_mexican_puff">મેક્સિકન પફ</string>
+    <string name="food_cheese_puff">ચીઝ પફ</string>
+    <string name="food_lemonade">લેમોનેડ</string>
+    <string name="food_fries_peri">પેરી-પેરી ફ્રાઈસ</string>
+    <string name="food_fries">ફ્રાઈસ</string>
+    <string name="food_aloo_parotha">આલુ પરોઠા</string>
+    <string name="food_paneer_tikka">પનીર ટીક્કા</string>
+    <string name="food_manchuriyan">મંચુરિયન</string>
+    <string name="food_chole_bhatore">છોલે ભટુરે</string>
+    <string name="food_puff">પફ</string>
+</resources>

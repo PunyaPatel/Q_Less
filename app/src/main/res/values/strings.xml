@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Q-less</string>
+    <string name="university_name">INDUS UNIVERSITY</string>
+    <string name="smart_canteen">Smart Canteen Ordering</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="new_here">New here? Create an Account</string>
+    <string name="already_account">Already have an account? Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="join_community">Join the INDUS Q-less community</string>
+    
+    <string name="explore_stalls">Explore Stalls</string>
+    <string name="order_favorite">Order from your favorite canteen</string>
+    <string name="available_stalls">Available Stalls</string>
+    
+    <string name="nav_home">Stalls</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_profile">Profile</string>
+    
+    <string name="add">Add</string>
+    <string name="added_to_cart">%s added to cart</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="place_order">Place Order</string>
+    
+    <string name="profile">Profile</string>
+    <string name="apply_changes">Apply Changes</string>
+    
+    <string name="order_success">Order Placed Successfully!</string>
+    <string name="token_label">Your Token Number</string>
+    <string name="token_instruction">Please show this token at the counter to collect your order.</string>
+    <string name="back_home">Back to Home</string>
+    
+    <!-- Drawer Items -->
+    <string name="menu_about">About Us</string>
+    <string name="menu_logout">LogOut</string>
+    <string name="select_language">Select Language</string>
+    
+    <!-- About Intent -->
+    <string name="about_title">About Q-less</string>
+    <string name="about_intent">Q-less is designed to eliminate long waiting queues at university food stalls. Our smart canteen ordering system allows students to browse menus, place orders digitally, and collect their food only when it is ready. We aim to make the dining experience faster, smarter, and hassle-free.</string>
+
+    <!-- Stall Names -->
+    <string name="stall_jaiswal">Jaiswal Canteen</string>
+    <string name="stall_nestle">Nestle</string>
+    <string name="stall_tea_post">Tea Post</string>
+    <string name="stall_indu_cafe">Indu Cafe</string>
+    <string name="stall_shiv_snacks">Shiv Snacks</string>
+
+    <!-- Food Items -->
+    <string name="food_samosa">Samosa</string>
+    <string name="food_samosa_chat">Samosa Chat</string>
+    <string name="food_dosa">Dosa</string>
+    <string name="food_masala_dosa">Masala Dosa</string>
+    <string name="food_sandwich">Sandwich</string>
+    <string name="food_grilled_sandwich">Grilled Cheese Sandwich</string>
+    <string name="food_packets">Packets</string>
+    <string name="food_thali">Fix Thali</string>
+    <string name="food_maggie">Maggie</string>
+    <string name="food_masala_maggie">Masala Maggie</string>
+    <string name="food_kitkat">Kit-Kat</string>
+    <string name="food_cheese_maggie">Cheese Maggie</string>
+    <string name="food_coffee">Coffee</string>
+    <string name="food_tea">Tea</string>
+    <string name="food_cold_coffee">Cold Coffee</string>
+    <string name="food_mexican_puff">Mexican Puff</string>
+    <string name="food_cheese_puff">Cheese Puff</string>
+    <string name="food_lemonade">Lemonade</string>
+    <string name="food_fries_peri">Peri-Peri Fries</string>
+    <string name="food_fries">Fries</string>
+    <string name="food_aloo_parotha">Aloo Parotha</string>
+    <string name="food_paneer_tikka">Paneer Tikka</string>
+    <string name="food_manchuriyan">Manchuryan</string>
+    <string name="food_chole_bhatore">Chole Bhatore</string>
+    <string name="food_puff">Puff</string>
+</resources>

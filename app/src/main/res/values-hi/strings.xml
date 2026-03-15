@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">क्यू-लेस</string>
+    <string name="university_name">इंडस यूनिवर्सिटी</string>
+    <string name="smart_canteen">स्मार्ट कैंटीन ऑर्डरिंग</string>
+    <string name="login">लॉगिन</string>
+    <string name="sign_up">साइन अप</string>
+    <string name="email_address">ईमेल पता</string>
+    <string name="password">पासवर्ड</string>
+    <string name="new_here">यहाँ नए हैं? खाता बनाएँ</string>
+    <string name="already_account">पहले से ही एक खाता है? लॉगिन करें</string>
+    <string name="create_account">खाता बनाएँ</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="join_community">इंडस क्यू-लेस समुदाय में शामिल हों</string>
+    
+    <string name="explore_stalls">स्टॉल खोजें</string>
+    <string name="order_favorite">अपनी पसंदीदा कैंटीन से ऑर्डर करें</string>
+    <string name="available_stalls">उपलब्ध स्टॉल</string>
+    
+    <string name="nav_home">स्टॉल</string>
+    <string name="nav_cart">कार्ट</string>
+    <string name="nav_profile">प्रोफ़ाइल</string>
+    
+    <string name="add">जोड़ें</string>
+    <string name="added_to_cart">%s कार्ट में जोड़ा गया</string>
+    <string name="your_cart">आपकी कार्ट</string>
+    <string name="total_amount">कुल राशि:</string>
+    <string name="place_order">ऑर्डर दें</string>
+    
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="apply_changes">परिवर्तन लागू करें</string>
+    
+    <string name="order_success">ऑर्डर सफलतापूर्वक दिया गया!</string>
+    <string name="token_label">आपका टोकन नंबर</string>
+    <string name="token_instruction">अपना ऑर्डर लेने के लिए कृपया काउंटर पर यह टोकन दिखाएं।</string>
+    <string name="back_home">होम पर वापस जाएं</string>
+    
+    <!-- Drawer Items -->
+    <string name="menu_about">हमारे बारे में</string>
+    <string name="menu_logout">लॉगआउट</string>
+    <string name="select_language">भाषा चुनें</string>
+    
+    <!-- About Intent -->
+    <string name="about_title">क्यू-लेस के बारे में</string>
+    <string name="about_intent">क्यू-लेस को यूनिवर्सिटी फूड स्टॉल पर लंबी प्रतीक्षा कतारों को खत्म करने के लिए डिज़ाइन किया गया है। हमारा स्मार्ट कैंटीन ऑर्डरिंग सिस्टम छात्रों को मेनू ब्राउज़ करने, डिजिटल रूप से ऑर्डर देने और भोजन तैयार होने पर ही उसे लेने की अनुमति देता है। हमारा लक्ष्य भोजन के अनुभव को तेज़, स्मार्ट और परेशानी मुक्त बनाना है।</string>
+
+    <!-- Stall Names -->
+    <string name="stall_jaiswal">जायसवाल कैंटीन</string>
+    <string name="stall_nestle">नेस्ले</string>
+    <string name="stall_tea_post">टी पोस्ट</string>
+    <string name="stall_indu_cafe">इंडु कैफे</string>
+    <string name="stall_shiv_snacks">शिव स्नैक्स</string>
+
+    <!-- Food Items -->
+    <string name="food_samosa">समोसा</string>
+    <string name="food_samosa_chat">समोसा चाट</string>
+    <string name="food_dosa">डोसा</string>
+    <string name="food_masala_dosa">मसाला डोसा</string>
+    <string name="food_sandwich">सैंडविच</string>
+    <string name="food_grilled_sandwich">ग्रिल्ड चीज़ सैंडविच</string>
+    <string name="food_packets">पैकेट्स</string>
+    <string name="food_thali">फिक्स थाली</string>
+    <string name="food_maggie">मैगी</string>
+    <string name="food_masala_maggie">मसाला मैगी</string>
+    <string name="food_kitkat">किट-कैट</string>
+    <string name="food_cheese_maggie">चीज़ मैगी</string>
+    <string name="food_coffee">कॉफी</string>
+    <string name="food_tea">चाय</string>
+    <string name="food_cold_coffee">कोल्ड कॉफी</string>
+    <string name="food_mexican_puff">मैक्सिकन पफ</string>
+    <string name="food_cheese_puff">चीज़ पफ</string>
+    <string name="food_lemonade">लेमोनेड</string>
+    <string name="food_fries_peri">पेरी-पेरी फ्राइज़</string>
+    <string name="food_fries">फ्राइज़</string>
+    <string name="food_aloo_parotha">आलू पराठा</string>
+    <string name="food_paneer_tikka">पनीर टिक्का</string>
+    <string name="food_manchuriyan">मंचूरियन</string>
+    <string name="food_chole_bhatore">छोले भटूरे</string>
+    <string name="food_puff">पफ</string>
+</resources>

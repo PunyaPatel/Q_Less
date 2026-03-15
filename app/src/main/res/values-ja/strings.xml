@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Q-less (キューレス)</string>
+    <string name="university_name">インダス大学</string>
+    <string name="smart_canteen">スマート食堂注文システム</string>
+    <string name="login">ログイン</string>
+    <string name="sign_up">サインアップ</string>
+    <string name="email_address">メールアドレス</string>
+    <string name="password">パスワード</string>
+    <string name="new_here">初めての方はこちら。アカウント作成</string>
+    <string name="already_account">既にアカウントをお持ちの方。ログイン</string>
+    <string name="create_account">アカウント作成</string>
+    <string name="full_name">氏名</string>
+    <string name="join_community">インダス Q-less コミュニティに参加する</string>
+    
+    <string name="explore_stalls">店舗を探す</string>
+    <string name="order_favorite">お気に入りの売店から注文</string>
+    <string name="available_stalls">利用可能な店舗</string>
+    
+    <string name="nav_home">店舗</string>
+    <string name="nav_cart">カート</string>
+    <string name="nav_profile">プロフィール</string>
+    
+    <string name="add">追加</string>
+    <string name="added_to_cart">%s がカートに追加されました</string>
+    <string name="your_cart">ショッピングカート</string>
+    <string name="total_amount">合計金額:</string>
+    <string name="place_order">注文を確定する</string>
+    
+    <string name="profile">プロフィール</string>
+    <string name="apply_changes">変更を適用</string>
+    
+    <string name="order_success">注文が完了しました！</string>
+    <string name="token_label">あなたのトークン番号</string>
+    <string name="token_instruction">カウンターでこのトークンを提示して商品を受け取ってください。</string>
+    <string name="back_home">ホームに戻る</string>
+    
+    <!-- Drawer Items -->
+    <string name="menu_about">アプリについて</string>
+    <string name="menu_logout">ログアウト</string>
+    <string name="select_language">言語を選択</string>
+    
+    <!-- About Intent -->
+    <string name="about_title">Q-less について</string>
+    <string name="about_intent">Q-lessは、大学の売店での長い待ち時間を解消するために設計されました。このスマート注文システムにより、学生はメニューを閲覧し、デジタルで注文し、準備ができてから受け取ることができます。食事体験をより速く、よりスマートに、そしてストレスフリーにすることを目指しています。</string>
+
+    <!-- Stall Names -->
+    <string name="stall_jaiswal">ジャイスワル食堂</string>
+    <string name="stall_nestle">ネスレ</string>
+    <string name="stall_tea_post">ティーポスト</string>
+    <string name="stall_indu_cafe">インデゥカフェ</string>
+    <string name="stall_shiv_snacks">シブスナックス</string>
+
+    <!-- Food Items -->
+    <string name="food_samosa">サモサ</string>
+    <string name="food_samosa_chat">サモサチャット</string>
+    <string name="food_dosa">ドーサ</string>
+    <string name="food_masala_dosa">マサラドーサ</string>
+    <string name="food_sandwich">サンドイッチ</string>
+    <string name="food_grilled_sandwich">グリルチーズサンド</string>
+    <string name="food_packets">スナック菓子</string>
+    <string name="food_thali">定食 (ターリー)</string>
+    <string name="food_maggie">マギー (麺)</string>
+    <string name="food_masala_maggie">マサラマギー</string>
+    <string name="food_kitkat">キットカット</string>
+    <string name="food_cheese_maggie">チーズマギー</string>
+    <string name="food_coffee">コーヒー</string>
+    <string name="food_tea">紅茶 (チャイ)</string>
+    <string name="food_cold_coffee">アイスコーヒー</string>
+    <string name="food_mexican_puff">メキシカンパフ</string>
+    <string name="food_cheese_puff">チーズパフ</string>
+    <string name="food_lemonade">レモネード</string>
+    <string name="food_fries_peri">ペリペリポテト</string>
+    <string name="food_fries">フライドポテト</string>
+    <string name="food_aloo_parotha">アールーパラーター</string>
+    <string name="food_paneer_tikka">パニールティッカ</string>
+    <string name="food_manchuriyan">マンチュリアン</string>
+    <string name="food_chole_bhatore">チョーレーバトゥーレー</string>
+    <string name="food_puff">パフ</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Dark Mode Theme (Zomato Bold Red & Black) -->
+    <color name="colorPrimary">#E23744</color> 
+    <color name="colorPrimaryDark">#CB202D</color>
+    <color name="colorAccent">#FFD700</color> 
+    <color name="colorSecondary">#1C1C1C</color> 
+    
+    <color name="backgroundColor">#121212</color> 
+    <color name="cardBackground">#1E1E1E</color> 
+    
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#AAAAAA</color>
+    
+    <color name="dividerColor">#333333</color>
+    <color name="error">#FF5252</color>
+    <color name="success">#4CAF50</color>
+    
+    <color name="drawerBackground">#121212</color>
+</resources>

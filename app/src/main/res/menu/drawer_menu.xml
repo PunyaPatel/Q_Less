@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_food"
+            android:title="@string/menu_about" />
+    </group>
+
+    <item android:title="@string/select_language">
+        <menu>
+            <item
+                android:id="@+id/lang_en"
+                android:title="English" />
+            <item
+                android:id="@+id/lang_hi"
+                android:title="हिंदी (Hindi)" />
+            <item
+                android:id="@+id/lang_gu"
+                android:title="ગુજરાતી (Gujarati)" />
+            <item
+                android:id="@+id/lang_ja"
+                android:title="日本語 (Japanese)" />
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+</menu>
