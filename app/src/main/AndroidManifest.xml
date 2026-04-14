@@ -43,6 +43,10 @@
         <activity
             android:name=".AboutActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".OrderHistoryActivity"
+            android:exported="false" />
             
     </application>
 

@@ -25,10 +25,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/colorPrimary"
-                app:title="@string/app_name"
-                app:titleCentered="true"
                 app:titleTextColor="@color/white"
-                app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge" />
+                app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge">
+                
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:padding="2dp"
+                    android:src="@drawable/qless_logo" />
+            </com.google.android.material.appbar.MaterialToolbar>
         </com.google.android.material.appbar.AppBarLayout>
 
         <FrameLayout
@@ -42,10 +49,10 @@
             android:id="@+id/bottom_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorSecondary"
+            android:background="@color/colorPrimary"
             app:elevation="24dp"
-            app:itemIconTint="@color/colorPrimary"
-            app:itemTextColor="@color/textColorSecondary"
+            app:itemIconTint="@color/nav_item_color"
+            app:itemTextColor="@color/nav_item_color"
             app:labelVisibilityMode="labeled"
             app:itemActiveIndicatorStyle="@style/Widget.Material3.BottomNavigationView.ActiveIndicator"
             app:layout_constraintBottom_toBottomOf="parent"

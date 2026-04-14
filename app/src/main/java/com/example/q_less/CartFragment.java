@@ -42,10 +42,29 @@ public class CartFragment extends Fragment {
             if (CartManager.getInstance().getCartItems().isEmpty()) {
                 Toast.makeText(getContext(), "Cart is empty", Toast.LENGTH_SHORT).show();
             } else {
-                Intent intent = new Intent(getActivity(), TokenActivity.class);
-                startActivity(intent);
-                CartManager.getInstance().clearCart();
-                updateCartUI();
+                int userId = UserManager.getInstance().getId();
+                if (userId != -1) {
+                    DatabaseHelper dbHelper = new DatabaseHelper(getContext());
+                    double total = CartManager.getInstance().getTotalPrice();
+                    long orderId = dbHelper.placeOrder(userId, total);
+                    
+                    if (orderId != -1) {
+                        for (FoodItem item : CartManager.getInstance().getCartItems()) {
+                            dbHelper.addOrderItem(orderId, item.getName(), item.getQuantity(), item.getPrice());
+                        }
+                        
+                        Intent intent = new Intent(getActivity(), TokenActivity.class);
+                        intent.putExtra("order_id", orderId);
+                        startActivity(intent);
+                        
+                        CartManager.getInstance().clearCart();
+                        updateCartUI();
+                    } else {
+                        Toast.makeText(getContext(), "Failed to place order", Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    Toast.makeText(getContext(), "Please login first", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

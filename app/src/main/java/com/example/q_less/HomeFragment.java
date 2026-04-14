@@ -32,6 +32,7 @@ public class HomeFragment extends Fragment {
         stallList.add(new Stall(getString(R.string.stall_shiv_snacks), R.drawable.shiv_snacks));
         stallList.add(new Stall(getString(R.string.stall_indu_cafe), R.drawable.indu_cafe));
         stallList.add(new Stall(getString(R.string.stall_nestle), R.drawable.nestle));
+        stallList.add(new Stall(getString(R.string.stall_pizza_paradise), R.drawable.ic_pizza_logo));
 
         StallAdapter adapter = new StallAdapter(stallList, stall -> {
             Intent intent = new Intent(getActivity(), MenuActivity.class);

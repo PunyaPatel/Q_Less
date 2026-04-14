@@ -8,19 +8,39 @@
     android:background="@color/backgroundColor"
     tools:context=".RegisterActivity">
 
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="8dp"
+        app:strokeWidth="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/qless_logo" />
+
+    </com.google.android.material.card.MaterialCardView>
+
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="24dp"
         android:text="@string/create_account"
         android:textColor="@color/textColorPrimary"
-        android:textSize="32sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         android:letterSpacing="-0.02"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/cardLogo" />
 
     <TextView
         android:id="@+id/tvSubTitle"

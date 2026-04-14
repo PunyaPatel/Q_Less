@@ -72,6 +72,14 @@ public class MenuActivity extends AppCompatActivity {
                 foodItems.add(new FoodItem(R.string.food_chole_bhatore, "Chole Bhatore", 100.0, R.drawable.chole));
                 foodItems.add(new FoodItem(R.string.food_puff, "Puff", 50.0, R.drawable.puff));
                 foodItems.add(new FoodItem(R.string.food_manchuriyan, "Manchuryan", 90.0, R.drawable.manchuriyan));
+            } else if (name.equals(getString(R.string.stall_pizza_paradise))) {
+                foodItems.add(new FoodItem(R.string.food_margherita_pizza, "Margherita Pizza", 199.0, R.drawable.margherita_pizza));
+                foodItems.add(new FoodItem(R.string.food_veggie_pizza, "Veggie Paradise Pizza", 299.0, R.drawable.veggie_paradise));
+                foodItems.add(new FoodItem(R.string.food_cheese_pizza, "Double Cheese Pizza", 349.0, R.drawable.double_cheese));
+                foodItems.add(new FoodItem(R.string.food_paneer_pizza, "Paneer Tikka Pizza", 399.0, R.drawable.paneer_tikka_pizza));
+                foodItems.add(new FoodItem(R.string.food_farmhouse_pizza, "Farmhouse Pizza", 329.0, R.drawable.farm_house));
+                foodItems.add(new FoodItem(R.string.food_mexican_pizza, "Mexican Wave Pizza", 359.0, R.drawable.mexican_wave));
+                foodItems.add(new FoodItem(R.string.food_tandoori_pizza, "Tandoori Paneer Pizza", 419.0, R.drawable.tandoori_paneer_pizza));
             }
         }
 

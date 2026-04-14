@@ -36,9 +36,16 @@ public class RegisterActivity extends AppCompatActivity {
             } else if (!email.endsWith("@indusuni.ac.in")) {
                 Toast.makeText(this, "Registration requires @indusuni.ac.in email", Toast.LENGTH_SHORT).show();
             } else {
-                UserManager.getInstance().setUser(name, email);
-                Toast.makeText(this, "Registration Successful for " + name, Toast.LENGTH_SHORT).show();
-                finish();
+                DatabaseHelper dbHelper = new DatabaseHelper(this);
+                long id = dbHelper.registerUser(name, email, password);
+                
+                if (id != -1) {
+                    UserManager.getInstance().setUser((int)id, name, email);
+                    Toast.makeText(this, "Registration Successful for " + name, Toast.LENGTH_SHORT).show();
+                    finish();
+                } else {
+                    Toast.makeText(this, "Registration failed or email already exists", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

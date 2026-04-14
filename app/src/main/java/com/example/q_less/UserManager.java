@@ -2,11 +2,13 @@ package com.example.q_less;
 
 public class UserManager {
     private static UserManager instance;
+    private int id;
     private String name;
     private String email;
 
     private UserManager() {
         // Default values for prototype
+        this.id = -1;
         this.name = "Indus Student";
         this.email = "student@indusuni.ac.in";
     }
@@ -18,9 +20,18 @@ public class UserManager {
         return instance;
     }
 
-    public void setUser(String name, String email) {
+    public void setUser(int id, String name, String email) {
+        this.id = id;
         this.name = name;
         this.email = email;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

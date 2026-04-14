@@ -20,10 +20,15 @@
             android:background="@color/colorPrimary"
             app:navigationIcon="@drawable/ic_back"
             app:navigationIconTint="@color/white"
-            app:title="Menu"
-            app:titleCentered="true"
             app:titleTextColor="@color/white"
-            app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge" />
+            app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge">
+            
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/qless_logo" />
+        </com.google.android.material.appbar.MaterialToolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 

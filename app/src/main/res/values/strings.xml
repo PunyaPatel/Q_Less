@@ -19,6 +19,7 @@
     <string name="nav_home">Stalls</string>
     <string name="nav_cart">Cart</string>
     <string name="nav_profile">Profile</string>
+    <string name="nav_order_history">History</string>
     
     <string name="add">Add</string>
     <string name="added_to_cart">%s added to cart</string>
@@ -49,6 +50,7 @@
     <string name="stall_tea_post">Tea Post</string>
     <string name="stall_indu_cafe">Indu Cafe</string>
     <string name="stall_shiv_snacks">Shiv Snacks</string>
+    <string name="stall_pizza_paradise">Pizza Paradise</string>
 
     <!-- Food Items -->
     <string name="food_samosa">Samosa</string>
@@ -76,4 +78,11 @@
     <string name="food_manchuriyan">Manchuryan</string>
     <string name="food_chole_bhatore">Chole Bhatore</string>
     <string name="food_puff">Puff</string>
+    <string name="food_margherita_pizza">Margherita Pizza</string>
+    <string name="food_veggie_pizza">Veggie Paradise Pizza</string>
+    <string name="food_cheese_pizza">Double Cheese Pizza</string>
+    <string name="food_paneer_pizza">Paneer Tikka Pizza</string>
+    <string name="food_farmhouse_pizza">Farmhouse Pizza</string>
+    <string name="food_mexican_pizza">Mexican Wave Pizza</string>
+    <string name="food_tandoori_pizza">Tandoori Paneer Pizza</string>
 </resources>

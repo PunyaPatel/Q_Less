@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragment = new HomeFragment();
             } else if (itemId == R.id.nav_cart) {
                 fragment = new CartFragment();
+            } else if (itemId == R.id.nav_order_history) {
+                startActivity(new Intent(MainActivity.this, OrderHistoryActivity.class));
+                return false; // Don't select it as a fragment
             } else if (itemId == R.id.nav_profile) {
                 fragment = new ProfileFragment();
             }
@@ -74,6 +77,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if (id == R.id.nav_about) {
             startActivity(new Intent(this, AboutActivity.class));
+        } else if (id == R.id.nav_order_history) {
+            startActivity(new Intent(this, OrderHistoryActivity.class));
         } else if (id == R.id.nav_logout) {
             startActivity(new Intent(this, LoginActivity.class));
             finish();

@@ -35,13 +35,21 @@ public class LoginActivity extends AppCompatActivity {
             } else if (!email.endsWith("@indusuni.ac.in")) {
                 Toast.makeText(this, "Only @indusuni.ac.in emails are allowed", Toast.LENGTH_SHORT).show();
             } else {
-                // Mock login logic: extract name from email for prototype
-                String name = email.split("@")[0].substring(0, 1).toUpperCase() + email.split("@")[0].substring(1);
-                UserManager.getInstance().setUser(name, email);
+                DatabaseHelper dbHelper = new DatabaseHelper(this);
+                android.database.Cursor cursor = dbHelper.loginUser(email, password);
                 
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+                if (cursor != null && cursor.moveToFirst()) {
+                    int id = cursor.getInt(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_ID));
+                    String name = cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_NAME));
+                    UserManager.getInstance().setUser(id, name, email);
+                    cursor.close();
+                    
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                } else {
+                    Toast.makeText(this, "Invalid email or password", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

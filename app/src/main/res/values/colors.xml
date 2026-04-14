@@ -3,21 +3,21 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <!-- Dark Mode Theme (Zomato Bold Red & Black) -->
-    <color name="colorPrimary">#E23744</color> 
-    <color name="colorPrimaryDark">#CB202D</color>
-    <color name="colorAccent">#FFD700</color> 
-    <color name="colorSecondary">#1C1C1C</color> 
+    <!-- New Theme Palette -->
+    <color name="colorPrimary">#042B51</color> 
+    <color name="colorPrimaryDark">#021B33</color>
+    <color name="colorAccent">#7ABAE0</color> 
+    <color name="colorSecondary">#305E84</color> 
     
-    <color name="backgroundColor">#121212</color> 
-    <color name="cardBackground">#1E1E1E</color> 
+    <color name="backgroundColor">#F5F9FC</color> 
+    <color name="cardBackground">#FFFFFF</color> 
     
-    <color name="textColorPrimary">#FFFFFF</color>
-    <color name="textColorSecondary">#AAAAAA</color>
+    <color name="textColorPrimary">#042B51</color>
+    <color name="textColorSecondary">#548BA6</color>
     
-    <color name="dividerColor">#333333</color>
+    <color name="dividerColor">#B3D4E9</color>
     <color name="error">#FF5252</color>
     <color name="success">#4CAF50</color>
     
-    <color name="drawerBackground">#121212</color>
+    <color name="drawerBackground">#FFFFFF</color>
 </resources>
